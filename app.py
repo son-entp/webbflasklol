@@ -1,9 +1,10 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/templates/index.html")
 def hello():
-    return "Fuck th cat, i haven't got any other words"
+    return render_template('index.html')
 
-app.run()
+if __name__ == '__main__':
+    app.run(debug=True)

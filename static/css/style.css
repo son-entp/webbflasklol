@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fef6f0; /* пастельный персиковый */
+  margin: 0;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.film-card {
+  background-color: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+  padding: 30px;
+  text-align: left;
+}
+
+.film-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.film-desc {
+  font-size: 17px;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.film-link {
+  font-size: 16px;
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.film-link:hover {
+  text-decoration: underline;
+}
